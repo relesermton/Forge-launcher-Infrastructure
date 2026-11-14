@@ -1,0 +1,46 @@
+﻿<%@ Page Language="C#" Title="Forge Launcher â€” Security" %>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Forge Launcher â€” Security</title>
+  <style>
+    body { background: #14100d; color: #f3e9df; font: 15px/1.6 "Segoe UI", system-ui, sans-serif; margin: 0; padding: 40px 20px; }
+    .wrap { max-width: 780px; margin: 0 auto; }
+    h1 { color: #ff7a3c; letter-spacing: .5px; }
+    h2 { color: #ffb454; margin-top: 2em; font-size: 1.05rem; }
+    a { color: #3cd0ff; }
+    .foot { margin-top: 3em; color: #8a7a6d; font-size: 13px; border-top: 1px solid #3a2f26; padding-top: 14px; }
+    code { background: #221b16; padding: 1px 6px; border-radius: 4px; color: #7dff5a; }
+    ul li { margin-bottom: .5em; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Forge Launcher â€” security</h1>
+    <p>How the launcher handles your machine, your files and your profile.</p>
+
+    <h2>Local by design</h2>
+    <ul>
+      <li>Everything binds to <code>127.0.0.1:4242</code> â€” the server is never exposed to your network unless you change it yourself.</li>
+      <li>Your nickname, saves and skin shelf live in local storage / <code>library/</code> on this PC. Nothing is uploaded, no accounts, no telemetry.</li>
+      <li>The <code>downloads</code> list in <code>VERSION.json</code> only ever fetches URLs you can read and edit â€” the current entry points at your own machine.</li>
+    </ul>
+
+    <h2>What PLAY does</h2>
+    <ul>
+      <li>Games boot in-app through Forge-VM (a sandboxed frame). PLAY never opens a browser tab on its own.</li>
+      <li>Mods are unzipped and run against the ModAPI shim inside the VM â€” treat third-party mods the way you'd treat any script you didn't write.</li>
+      <li>Browser-tab boot still exists as boot option 3, and only fires if you pick it.</li>
+    </ul>
+
+    <h2>The EXE / Wine lane</h2>
+    <p>Real executables run under the toy Wine stack inside the interpreter (<code>exeInterpreter.ts</code>) â€” it's an emulator, not native execution, and it only reads files you load into it.</p>
+
+    <h2>Reporting a problem</h2>
+    <p>Found something unsafe? Open an issue in the repo or use the <a href="Dmca.aspx">DMCA / takedown</a> channel for rights concerns. Patches welcome â€” see <a href="QNA.aspx">QNA</a> for the workflow.</p>
+
+    <div class="foot">Forge Launcher security Â· served from the project root as security.aspx Â· <a href="Credits.aspx">Credits</a> Â· <a href="QNA.aspx">QNA</a> Â· <a href="Faq.aspx">FAQ</a></div>
+  </div>
+</body>
+</html>

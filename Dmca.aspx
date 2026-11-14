@@ -1,0 +1,45 @@
+<%@ Page Language="C#" Title="Forge Launcher — DMCA" %>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Forge Launcher — DMCA</title>
+  <style>
+    body { background: #14100d; color: #f3e9df; font: 15px/1.6 "Segoe UI", system-ui, sans-serif; margin: 0; padding: 40px 20px; }
+    .wrap { max-width: 780px; margin: 0 auto; }
+    h1 { color: #ff7a3c; letter-spacing: .5px; }
+    h2 { color: #ffb454; margin-top: 2em; font-size: 1.05rem; }
+    ol li { margin-bottom: .6em; }
+    a { color: #3cd0ff; }
+    .foot { margin-top: 3em; color: #8a7a6d; font-size: 13px; border-top: 1px solid #3a2f26; padding-top: 14px; }
+    code { background: #221b16; padding: 1px 6px; border-radius: 4px; color: #7dff5a; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>DMCA / takedown policy</h1>
+    <p>Forge Launcher is a local launcher. It serves files that live in your own <code>library/</code> folder and downloads listed in
+       your own <code>VERSION.json</code> — nothing is hosted publicly.</p>
+
+    <h2>Reporting content</h2>
+    <p>If you believe material reachable through the launcher infringes your rights, send a notice with:</p>
+    <ol>
+      <li>Your signature (physical or electronic) and contact details.</li>
+      <li>The exact URL or file path you want removed (e.g. <code>/play/&lt;id&gt;/</code> or a downloads entry).</li>
+      <li>Identification of the work you claim is infringed, and the basis of your claim.</li>
+      <li>A statement of good-faith belief that the use is not authorized.</li>
+      <li>A statement, under penalty of perjury, that the notice is accurate.</li>
+    </ol>
+
+    <h2>What happens next</h2>
+    <p>Valid notices result in the entry being pulled from <code>VERSION.json</code>, the registry and <code>library/</code> — the same
+       path the <b>remove</b> action takes. Repeat infringers lose the shelf.</p>
+
+    <h2>Counter-notice</h2>
+    <p>If your content was removed by mistake, reply with the same detail plus a statement that you consent to the jurisdiction of your
+       local courts.</p>
+
+    <div class="foot">Forge Launcher DMCA · served from the project root as Dmca.aspx · <a href="Faq.aspx">FAQ</a></div>
+  </div>
+</body>
+</html>

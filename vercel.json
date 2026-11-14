@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/:page.aspx",
+      "headers": [
+        { "key": "Content-Type", "value": "text/html; charset=utf-8" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/([A-Za-z0-9_+\\-]+)\\.aspx", "destination": "/$1.html" }
+  ]
+}
