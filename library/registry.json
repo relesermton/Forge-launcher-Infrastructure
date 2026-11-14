@@ -1,0 +1,88 @@
+{
+  "games": [
+    {
+      "id": "MAULINA-PRISM",
+      "name": "Eaglercraft 1.12 WASM-GC",
+      "version": "1.12.2",
+      "kind": "web",
+      "entry": "Eaglercraft-1.12.2-WASM.html",
+      "sizeBytes": 20103784,
+      "installedAt": "2026-11-10T03:55:08.310Z"
+    },
+    {
+      "id": "aa",
+      "name": "Resent Client",
+      "version": "1.5",
+      "kind": "web",
+      "entry": "beta-1.5.html",
+      "sizeBytes": 16152751,
+      "installedAt": "2026-11-10T04:08:51.078Z"
+    },
+    {
+      "id": "eaglercraft-26.3",
+      "name": "Eaglercraft",
+      "version": "26.3",
+      "kind": "web",
+      "entry": "eaglercraft-26.3-fe8f1237.html",
+      "sizeBytes": 78124802,
+      "installedAt": "2026-11-11T03:26:30.159Z"
+    },
+    {
+      "id": "eaglercraft_1.5.2-sp2.01_offline",
+      "name": "Eaglercraft 1 5 2 sp2 01 Offline",
+      "version": "1.5.2",
+      "kind": "web",
+      "entry": "Offline_Download_Version.html",
+      "sizeBytes": 23536015,
+      "installedAt": "2026-11-10T04:13:38.470Z"
+    },
+    {
+      "id": "eaglercraft26-2",
+      "name": "Eaglercraft26 2",
+      "version": "",
+      "kind": "web",
+      "entry": "eaglercraft26-2.html",
+      "sizeBytes": 77579383,
+      "installedAt": "2026-11-10T02:56:29.072Z"
+    }
+  ],
+  "account": {
+    "name": "AdaKing",
+    "createdAt": "2026-11-13T02:09:30.517Z"
+  },
+  "accounts": {
+    "ForgeKing": {
+      "name": "ForgeKing",
+      "createdAt": "2026-11-10T01:49:48.845Z",
+      "lastSeen": "2026-11-11T04:53:39.632Z"
+    },
+    "aldo188": {
+      "name": "aldo188",
+      "createdAt": "2026-11-10T02:05:42.811Z",
+      "lastSeen": "2026-11-10T07:30:33.982Z"
+    },
+    "ADO": {
+      "name": "ADO",
+      "createdAt": "2026-11-10T02:44:21.765Z"
+    },
+    "ALLL": {
+      "name": "ALLL",
+      "createdAt": "2026-11-10T02:54:32.040Z"
+    },
+    "lax1dude": {
+      "name": "lax1dude",
+      "createdAt": "2026-11-11T07:27:37.889Z"
+    },
+    "AdaKing": {
+      "name": "AdaKing",
+      "createdAt": "2026-11-13T02:09:30.517Z"
+    }
+  },
+  "servers": [
+    {
+      "address": "wss://eagler.stardust.gg",
+      "name": "Stardust",
+      "addedAt": "2026-11-10T01:49:50.457Z"
+    }
+  ]
+}
